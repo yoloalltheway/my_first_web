@@ -3,6 +3,7 @@
 <div class="custom-product">
      <div class="col-sm-10">
         <table class="table">
+          <h4>  Order Now  </h4>
          
             <tbody>
               <tr>
@@ -38,6 +39,7 @@
                 </div>
                 <button type="submit" class="btn btn-default">Order Now</button>
               </form>
+              <br>
           </div>
      </div>
 </div>

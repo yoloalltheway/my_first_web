@@ -94,7 +94,7 @@ class ProductController extends Controller
     function myOrders()
     {
         $userId=Session::get('user')['id'];
-        return DB::table('orders')
+        $orders= DB::table('orders')
         ->join('products','orders.product_id','=','products.id')
         ->where('orders.user_id',$userId)
         ->get();
